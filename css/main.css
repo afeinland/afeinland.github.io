@@ -102,36 +102,40 @@ textarea {
 #container {
     width: auto;
     margin: 0 auto;
+    height: 500px;
+}
+
+
+#header_container {
     background-color: #222;
 }
 
+
 #header {
-    margin: auto;
     max-width: 1000px;
+    margin: auto;
 }
 
-
-#header > ul{
-    margin: 0;
-    padding: 0;
+#header ul {
+    margin: 0px;
+    padding: 0px;
     list-style-type: none;
+    text-align: right:
 }
 
-#header > ul > li {
+#header ul li {
     display: inline;
 }
 
-#header > ul > li > a {
+
+#header ul li a {
     text-decoration: none;
-}   
+    padding: .2em 1em;
+}
 
-
-
-
-
-
-
-
+#header ul li a:hover {
+    color: #fff;
+}
 
 
 
@@ -271,7 +275,7 @@ textarea {
 
     a,
     a:visited {
-        text-decoration: underline;
+        color: #000;
     }
 
     a[href]:after {
