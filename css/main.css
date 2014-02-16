@@ -112,34 +112,42 @@ textarea {
 
 
 #header {
-    max-width: 1000px;
+    max-width: 900px;
     margin: auto;
 }
 
-#header ul {
+#header h1 {
+    display: inline-block;
     margin: 0px;
-    padding: 0px;
+}
+
+
+#nav_buttons {
+    display: inline-block;
     list-style-type: none;
-    text-align: right:
+    height: auto;
+    float: right
 }
 
-#header ul li {
+#nav_buttons li {
     display: inline;
-}
-
-
-#header ul li a {
-    text-decoration: none;
     padding: .2em 1em;
 }
 
-#header ul li a:hover {
-    color: #fff;
+
+#nav_buttons li a {
+    text-decoration: none;
 }
 
 
+#nav_buttons li a:visited {
+    color: #e0ffff;
+}
 
 
+#nav_buttons li a:hover {
+    color: #fff;
+}
 
 
 /* ==========================================================================
