@@ -21,7 +21,7 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
-    background-color: #ffffff;
+    background-color: #222;
 }
 
 /*
@@ -100,21 +100,11 @@ textarea {
 
 
 #container {
-    width: auto;
+    width: 50%;
+    max-width:940px;
     margin: 0 auto;
-    height: 500px;
 }
 
-
-#header_container {
-    background-color: #222;
-}
-
-
-#header {
-    max-width: 900px;
-    margin: auto;
-}
 
 #header h1 {
     display: inline-block;
@@ -123,30 +113,12 @@ textarea {
 
 
 #nav_buttons {
-    display: inline-block;
-    list-style-type: none;
-    height: auto;
-    float: right
+    float: right;
 }
 
-#nav_buttons li {
-    display: inline;
-    padding: .2em 1em;
-}
+#body {
+    height: 500px;
 
-
-#nav_buttons li a {
-    text-decoration: none;
-}
-
-
-#nav_buttons li a:visited {
-    color: #e0ffff;
-}
-
-
-#nav_buttons li a:hover {
-    color: #fff;
 }
 
 
