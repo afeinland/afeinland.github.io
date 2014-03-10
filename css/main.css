@@ -111,9 +111,19 @@ textarea {
 }
 
 
-#header h1 {
+#header > h1 {
     display: inline-block;
     margin: 0px;
+}
+
+
+div.horizontalRule
+{
+clear:both;
+width:90%;
+background-color:#e0ffff;
+height:1px;
+margin: 10px auto;
 }
 
 
@@ -121,12 +131,37 @@ textarea {
     float: right;
 }
 
+
+
 #body {
     padding: 50px;
     height: 500px;
-
 }
 
+#links {
+    float: right;
+}
+
+
+#links > ul {
+    list-style-type: none;
+}
+
+#links > ul > li {
+    margin: 5px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color:#fff;
+}
+
+a:visited {
+    color: #e0ffff;
+}
 
 /* ==========================================================================
    Helper classes
