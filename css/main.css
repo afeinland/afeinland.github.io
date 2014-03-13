@@ -19,6 +19,7 @@ textarea {
 }
 
 html {
+    font-family: "Karla", Helvetica, Times, serif;
     font-size: 1em;
     line-height: 1.4;
     background-color: #222;
@@ -100,7 +101,7 @@ textarea {
 
 
 #container {
-    width: 50%;
+    width: 90%;
     max-width:940px;
     margin: 0 auto;
 }
@@ -120,7 +121,7 @@ textarea {
 div.horizontalRule
 {
 clear:both;
-width:90%;
+width:98%;
 background-color:#e0ffff;
 height:1px;
 margin: 10px auto;
@@ -159,6 +160,7 @@ a:hover {
     color:#fff;
 }
 
+a,
 a:visited {
     color: #e0ffff;
 }
@@ -296,7 +298,11 @@ a:visited {
 
     a,
     a:visited {
-        color: #000;
+        color: #e0ffff;
+    }
+
+    a:hover {
+        color:#fff;
     }
 
     a[href]:after {
