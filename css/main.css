@@ -19,14 +19,16 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
 
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #000; }
-a:hover   { color: #000; }
+a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover   { color: #FFF; }
 a:visited { color: #000; }
 
 /*****************************************************************************/
@@ -34,6 +36,20 @@ a:visited { color: #000; }
 /* Home
 /*
 /*****************************************************************************/
+
+#posts_container {
+    float: left;
+}
+
+#links_container {
+    margin-right: 1em;
+    float: right;
+}
+
+#clear_both {
+    clear: both;
+}
+
 .posts {
   list-style-type: none;
   margin-bottom: 2em;
@@ -49,11 +65,20 @@ a:visited { color: #000; }
   font-size: 80%;
 }
 
+.links {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+.links li {
+  line-height: 1.75em;
+}
 /*****************************************************************************/
 /*
 /* Site
 /*
 /*****************************************************************************/
+
 
 .site {
   font-size: 115%;
@@ -74,18 +99,20 @@ a:visited { color: #000; }
 }
 
 .title a {
-  color: #a00;
-}
-
-.title a:hover {
   color: #000;
 }
 
+.title a:hover {
+  color: #FFF;
+}
+
+/* .extra class for secondary link in header */
 .header a.extra {
   color: #aaa;
   margin-left: 1em;
 }
 
+/* .extra class for secondary link in header */
 .header a.extra:hover {
   color: #000;
 }
@@ -102,9 +129,9 @@ a:visited { color: #000; }
   overflow: hidden;
 }
 
-.footer .contact {
-  float: left;
-  margin-right: 3em;
+.footer .contact li {
+  display: inline;
+  padding-right: 0.5em;
 }
 
 .footer .contact a {
@@ -158,3 +185,4 @@ a:visited { color: #000; }
 .post pre.terminal code {
   background-color: #333;
 }
+

@@ -3,13 +3,18 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2014-04-26 16:10:34
 categories: jekyll update
+style: |
+    body { background: LightBlue; }
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
 To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
 
-Jekyll also offers powerful support for code snippets:
+###Jekyll also offers powerful support for code snippets:
 
+==
+
+#####Ruby
 {% highlight ruby %}
 def print_hi(name)
   puts "Hi, #{name}"
@@ -18,7 +23,9 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
+==
 
+####C++
 {% highlight c++ %}
 for(int i = 0; i < 5; ++i)
     cout << "Hi!";

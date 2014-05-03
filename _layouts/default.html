@@ -12,31 +12,31 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
+        {% if page.style_file %}
+            <link rel="stylesheet" href="{{ page.style_file }}">
+        {% endif %}
+
+        {% if page.style %}
+            <style type="text/css"> {{ page.style }} </style>
+        {% endif %}
+
     </head>
     <body>
 
         <div class="site">
           <div class="header">
             <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
           </div>
 
           {{ content }}
 
           <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
+            <ul class="contact">
+              <li>Alex Feinland</li>
+              <li><a href="mailto:afeinland@gmail.com?Subject=Hello%20again" target="_top">email</a></li>
+              <li><a href="https://github.com/afeinland">github</a></li>
+              <li><a href="https://twitter.com/yourusername">linkedin</a></li>
+            </ul>
           </div>
         </div>
         {% include analytics.html %}
