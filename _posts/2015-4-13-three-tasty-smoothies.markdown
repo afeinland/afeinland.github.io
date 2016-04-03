@@ -5,7 +5,7 @@ date: 2015-04-13 15:30:00
 categories: blog post
 ---
 
-Looking for a fun, easy, and - most importantly - tasy way to consume more fruits and veggies? Well, your answer is right here.
+Looking for a fun, easy, and - most importantly - tasty way to consume more fruits and veggies? Well, your answer is right here.
 
 ===
 
